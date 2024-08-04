@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #444;
+    color: white;
+    padding: 1em 2em;
+}
+
+header #logo h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    margin: 2em;
+}
+
+main section {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+main section h2 {
+    margin-bottom: 0.5em;
+}
+
+/* Sidebar Styling */
+aside {
+    background-color: white;
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid #ccc;
+}
+
+aside h2 {
+    margin-bottom: 0.5em;
+}
+
+aside #search-bar input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+aside #quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside #quick-links ul li {
+    margin-bottom: 0.5em;
+}
+
+aside #quick-links ul li a {
+    text-decoration: none;
+    color: #444;
+}
+
+aside #quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
